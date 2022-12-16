@@ -6,3 +6,5 @@ class Defensivos:
         self.preco = preco
         self.quantidade_k = quantidade_k
         self.quantidade_l = quantidade_l
+
+

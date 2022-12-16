@@ -1,7 +1,7 @@
 from modelo_dados import *
-from dbm import _Database
+from dbm import *
 
-bd = _Database("banco_de_dados_defensivos")
+bd = ("banco_de_dados_defensivos")
 
 banco_de_dados_defensivos = bd("banco_de_dados.json")
 
