@@ -5,12 +5,13 @@ from tinydb import TinyDB
 banco_de_dados_defensivos = TinyDB("banco_de_dados_defensivos.json")
 
 
-nome = "glifosato"
-quantidade_produto = "2"
-data_entrada = "15/12/2022"
-quantidade_k = "24"
-quantidade_l = "22"
-
-def adiciona_defensivo():
-    x = Defensivos(nome, quantidade_produto, data_entrada, quantidade_k, quantidade_l)
-    banco_de_dados_defensivos.append(x)
+def insere_dados_defensivos(modelo_dados: Defensivos):
+    banco_de_dados_defensivos.insert({
+    "nome": modelo_dados.nome,
+    "quantidade_produto": modelo_dados.quantidade_produto,
+    "preco": modelo_dados.preco,
+    "data_entrada": modelo_dados.data_entrada,
+    "quantidade_k": modelo_dados.quantidade_k,
+    "quantidade_l": modelo_dados.quantidade_l
+    })
+    
