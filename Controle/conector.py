@@ -1,5 +1,5 @@
 from modelo_dados import *
-from dbm import *
+
 
 
 bd = ("banco_de_dados_defensivos")
