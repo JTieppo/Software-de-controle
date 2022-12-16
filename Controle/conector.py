@@ -1,4 +1,3 @@
-
 from modelo_dados import *
 from tinydb import TinyDB
 
