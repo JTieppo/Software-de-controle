@@ -1,10 +1,8 @@
 from modelo_dados import *
+from tinydb import TinyDB
 
 
-
-bd = ("banco_de_dados_defensivos")
-
-banco_de_dados_defensivos = bd("banco_de_dados.json")
+banco_de_dados_defensivos = TinyDB("banco_de_dados_defensivos.jason")
 
 
 nome = "glifosato"
