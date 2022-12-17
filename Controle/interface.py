@@ -1,5 +1,5 @@
 from tkinter import *
-from modelo_dados import Defensivos
+
 
 def interface_defensivos():
     janela_defensivo = Tk()
@@ -11,9 +11,9 @@ def interface_defensivos():
     quantidadde_l = Entry()
     valor_compra = Entry()
     data_compra = Entry()
-    
 
     janela_defensivo.mainloop()
+    return nome, data_entrada, quantidade_k, quantidadde_l, valor_compra, data_compra
 
 
 # Executa a janela para visualização de dados roupas
@@ -43,9 +43,7 @@ def interface_gados():
     m_ou_f = Entry(janela_gado)
     prenha_ou_nao = Entry(janela_gado)
     parida_ou_nao = Entry(janela_gado)
-    qual_pasto = Entry(janela_gado)
-    numero_mae = Entry(janela_gado)
-    numero_filho = Entry(janela_gado)
+    pasto = Entry()
 
     janela_gado.mainloop()
 
@@ -65,6 +63,3 @@ botão_Gado = Button(janela_inicial, text="Gado", command=interface_gados)
 botão_Gado.grid(padx=150, pady=52)
 
 janela_inicial.mainloop()
-
-
-

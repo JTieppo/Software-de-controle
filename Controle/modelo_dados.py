@@ -18,7 +18,7 @@ class Roupas:
         
 
 class Gados:
-    def __init__(self, numero, raca, tipo, peso, m_ou_f, prenha_ou_nao, parida_ou_nao, qual_pasto) -> None:
+    def __init__(self, numero, raca, tipo, peso, m_ou_f, prenha_ou_nao, parida_ou_nao, pasto) -> None:
         self.numero = numero
         self.raca = raca
         self.tipo = tipo
@@ -26,4 +26,4 @@ class Gados:
         self.m_ou_f = m_ou_f
         self.prenha_ou_nao = prenha_ou_nao
         self.parida_ou_nao = parida_ou_nao
-        self.qual_pasto = qual_pasto
+        self.pasto = pasto
