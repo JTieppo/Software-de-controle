@@ -11,9 +11,9 @@ class Roupas:
     def __init__(self, marca, tamanho, valor_compra, valor_venda, data_compra, cor) -> None:
         self.marca = marca
         self.tamanho = tamanho
-        self.valor_de_compra = valor_compra
-        self.valor_para_venda = valor_venda
-        self.data_de_compra = data_compra
+        self.valor_compra = valor_compra
+        self.valor_venda = valor_venda
+        self.data_compra = data_compra
         self.cor = cor
         
 
