@@ -1,14 +1,14 @@
 from modelo_dados import Defensivos, Roupas, Gados
 from conector import insere_dados_defensivos, insere_dados_roupas, insere_dados_gados
-
+from interface import *
 
 def adiciona_dados_defensivos():
-    x = Defensivos(nome, data_de_entrada, quantidade_k, quantidade_l, valor_de_compra, data_de_compra)
+    x = Defensivos(nome, data_entrada, quantidade_k, quantidade_l, valor_compra, data_compra)
     insere_dados_defensivos(x)
 
 
 def adiciona_dados_roupas():
-    y = Roupas(marca, tamanho, valor_de_compra, valor_para_venda, data_de_compra, cor)
+    y = Roupas(marca, tamanho, valor_compra, valor_venda, data_compra, cor)
     insere_dados_roupas(y)
 
 

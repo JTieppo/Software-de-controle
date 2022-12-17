@@ -5,12 +5,12 @@ def interface_defensivos():
     janela_defensivo = Tk()
     janela_defensivo.title("Controle de defensivos")
 
-    Defensivos.nome = Entry()
-    data_entrada = Entry(janela_defensivo)
-    quantidade_k = Entry(janela_defensivo)
-    quantidadde_l = Entry(janela_defensivo)
-    valor_de_compra = Entry(janela_defensivo)
-    data_de_compra = Entry(janela_defensivo)
+    nome = Entry()
+    data_entrada = Entry()
+    quantidade_k = Entry()
+    quantidadde_l = Entry()
+    valor_compra = Entry()
+    data_compra = Entry()
     
 
     janela_defensivo.mainloop()
